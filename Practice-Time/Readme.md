@@ -15,34 +15,20 @@ dividend for at least  **3 consecutive years** in the past are labelled as *'val
 *)*
 
 ## B. Test Data Set
-company,fiscal_year
-
--------------------------------
-
-AHPC,20702071
-
-AHPC,20712072
-
-AHPC,20732074
-
-AHPC,20762077
-
-CZBIL,20692070
-
-CZBIL,20702071
-
-CZBIL,20712072
-
-CZBIL,20732074
-
-GBIME,20692070
-
-GBIME,20702071
-
-GBIME,20712072
-
-GBIME,20732074
-
+|company|fiscal_year|
+|-|-|
+|AHPC|20702071|
+|AHPC|20712072|
+|AHPC|20732074|
+|AHPC|20762077|
+|CZBIL|20692070|
+|CZBIL|20702071|
+|CZBIL|20712072|
+|CZBIL|20732074|
+|GBIME|20692070|
+|GBIME|20702071|
+|GBIME|20712072|
+|GBIME|20732074|
 ## C. Expected Output
 
 |valuestocks|
