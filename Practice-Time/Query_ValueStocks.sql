@@ -37,3 +37,27 @@ SELECT
   *
 FROM
   dividend;
+SELECT
+  Distinct company,
+  fiscal_year,
+  rank() Over (
+    Partition by company
+    order by
+      fiscal_year
+  )
+FROM
+  (
+    SELECT
+      Distinct *
+    FROM
+      dividend
+  )
+order by
+  company,
+  fiscal_year;
+SELECT
+  d.company,
+  d.fiscal_year,
+  d2.fiscal_year
+FROM
+  dividend d USING dividend d2;
